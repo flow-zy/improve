@@ -33,12 +33,12 @@ jobs:
         # 打包
         run: npm run build
 
-      - name: Deploy
+      - name: flow-zy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署打包目录
           folder: dist
           # 密钥名
-          token: ${{ secrets.VITE_VUE_DEPLOY }}
+          token: ${{ secrets.improve }}
           # 分支
           branch: gh-pages
