@@ -1,0 +1,6 @@
+dist
+node_modules
+.prettierrc.cjs
+auto-imports.d.js
+components.d.js
+.eslintrc.cjs
